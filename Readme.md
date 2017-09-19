@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дарья Глаголь](https://up.htmlacademy.ru/adaptive/12/user/303891).
-* Наставник: `Нет наставника`.
+* Наставник: `Кексобот`.
 
 ---
 
