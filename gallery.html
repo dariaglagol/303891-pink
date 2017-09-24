@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="semantic-header">Мобильное приложение &#xab;PINK&#xbb;</h1>
+    <nav class="main-nav">
+      <div class="main-nav__inner">
+        <a class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="#" width="92"></a>
+        <ul class="main-nav__wrapper nav-list">
+          <li class="nav-list__item">
+            <a>Главная</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="gallery.html">Фотографии</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
+          </li>
+        </ul><button class="main-nav__toggle" type="button"></button>
+      </div>
+    </nav>
+    <div class="banner">
+      <h2 class="banner__header">Фотографии пользователей</h2>
+    </div>
+  </header>
+  <main class="content-block">
+    <section class="gallery">
+      <p class="gallery__desc">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      <div class="gallery__inner">
+        <article class="gallery__panoram">
+          <a href="#"><img alt="Фото Анны" class="gallery__panoram-pict" src="#"></a>
+          <div class="gallery__panoram-desc">
+            <p class="gallery__user-name">Анна <span class="gallery__user-time">(5 минут назад)</span></p>
+            <p class="gallery__user-text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            <p class="gallery__panoram-like">Нравится: 215</p>
+          </div>
+        </article>
+        <article class="gallery-item">
+          <a href="#"><img alt="Фото Левона" class="gallery-item__pict" src="#"></a>
+          <div class="gallery-item__desc">
+            <p class="gallery-item__user-name">Левон <span class="gallery-item__user-time">(5 часов назад)</span></p>
+            <p class="gallery-item__user-text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <p class="gallery-item__like">Нравится: 356</p>
+          </div>
+        </article>
+        <article class="gallery-item">
+          <a href="#"><img alt="Фото Антона" class="gallery-item__pict" src="#"></a>
+          <div class="gallery-item__desc">
+            <p class="gallery-item__user-name">Антон <span class="gallery-item__user-time">(12 часов назад)</span></p>
+            <p class="gallery-item__user-text">Соседи будут рады!</p>
+            <p class="gallery-item__like">Нравится: 666</p>
+          </div>
+        </article>
+        <article class="gallery-item">
+          <a href="#"><img alt="Фото Бориса" class="gallery-item__pict" src="#"></a>
+          <div class="gallery-item__desc">
+            <p class="gallery-item__user-name">Борис <span class="gallery-item__user-time">(20 часов назад)</span></p>
+            <p class="gallery-item__user-text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+            <p class="gallery-item__like">Нравится: 215</p>
+          </div>
+        </article>
+        <article class="gallery-item">
+          <a href="#"><img alt="Фото Сергея" class="gallery-item__pict" src="#"></a>
+          <div class="gallery-item__desc">
+            <p class="gallery-item__user-name">Сергей <span class="gallery-item__user-time">(25 часов назад)</span></p>
+            <p class="gallery-item__user-text">Самая кубанская в мире!</p>
+            <p class="gallery-item__like">Нравится: 4</p>
+          </div>
+        </article>
+        <article class="gallery-item">
+          <a href="#"><img alt="Фото Максима" class="gallery-item__pict" src="img/photo-5-mobile@1x.jpg" srcset="img/photo-5-mobile@2x.jpg 2x"></a>
+          <div class="gallery-item__desc">
+            <p class="gallery-item__user-name">Максим <span class="gallery-item__user-time">(40 часов назад)</span></p>
+            <p class="gallery-item__user-text">Где снег-то?</p>
+            <p class="gallery-item__like">Нравится: 150</p>
+          </div>
+        </article>
+        <article class="gallery-item">
+          <a href="#"><img alt="Фото Надежды" class="gallery-item__pict" src="img/photo-6-mobile@1x.jpg" srcset="img/photo-6-mobile@2x.jpg 2x"></a>
+          <div class="gallery-item__desc">
+            <p class="gallery-item__user-name">Надежда <span class="gallery-item__user-time">(45 часов назад)</span></p>
+            <p class="gallery-item__user-text">Всем GM и взаимные лайки!</p>
+            <p class="gallery-item__like">Нравится: 2560</p>
+          </div>
+        </article>
+      </div>
+      <p class="gallery__desc gallery__desc--bottom">Затмите их всех!<br>
+      Выкладывайте все, что накопилось в телефоне!</p>
+    </section>
+    <section class="your-post">
+      <div class="your-post__inner">
+        <img alt="Ваше фото" class="your-post__pict" height="374" src="#" width="280">
+        <div class="user-area">
+          <div class="filters">
+            <div class="filters__inner">
+              <button class="filters__option filters__cut filters__option--active"></button>
+              <div class="control-bar control-bar--cut">
+                <span class="control-bar__full"></span><span class="control-bar__thumb"></span>
+              </div>
+            </div>
+            <div class="filters__inner">
+              <button class="filters__option filters__color"></button>
+              <div class="control-bar control-bar--color">
+                <span class="control-bar__full"></span><span class="control-bar__thumb"></span>
+              </div>
+            </div>
+            <div class="filters__inner">
+              <button class="filters__option filters__contrast"></button>
+              <div class="control-bar control-bar--contrast">
+                <span class="control-bar__full"></span><span class="control-bar__thumb"></span>
+              </div>
+            </div>
+          </div>
+          <div class="user-area__buttons">
+            <button class="btn btn--post" type="submit">Запостить</button> <button class="btn btn--disabled" type="reset">Отмена</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__inner">
+      <span class="page-footer__logo"></span>
+      <div class="social-btn">
+        <a class="social-btn__tw" href="#" title="Твиттер"></a> <a class="social-btn__fb" href="#" title="Фейсбук"></a> <a class="social-btn__yt" href="#" title="YouTube"></a>
+      </div>
+      <p class="page-footer__copyright">Разработано <a class="page-footer__academy-logo" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" title="HTML Academy"></a></p>
+    </div>
+  </footer>
+</body>
 </html>
