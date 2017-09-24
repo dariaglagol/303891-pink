@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="semantic-header">Мобильное приложение &#xab;PINK&#xbb;</h1>
+    <nav class="main-nav">
+      <div class="main-nav__inner">
+        <a class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="#" width="92"></a>
+        <ul class="main-nav__wrapper nav-list">
+          <li class="nav-list__item">
+            <a>Главная</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="gallery.html">Фотографии</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
+          </li>
+        </ul><button class="main-nav__toggle" type="button"></button>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner__hand-picture"></div>
+      <div class="download">
+        <button class="btn btn--download-block">Скачать приложение</button>
+        <div class="download__store-icon"><img alt="" class="download__store-icon download__store-icon--apple" src="#"> <img alt="" class="download__store-icon download__store-icon--android" src="#"> <img alt="" class="download__store-icon download__store-icon--windows" src="#"></div>
+        <p class="download__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+    </div>
+  </header>
+  <main class="content-block">
+    <section class="features">
+      <h2 class="semantic-header">Наши преимущества</h2>
+      <div class="features__desc">
+        <p>Устали от серости мегаполиса?</p>
+        <p>Нам есть что вам предложить!</p>
+      </div>
+      <div class="features__wrap"></div>
+    </section>
+    <section class="testimonials">
+      <div class="slider">
+        <h2 class="semantic-header">Отзывы о нас</h2>
+        <div class="testimonials__list slider__wrapper">
+          <article class="testimonials__item">
+            <span class="testimonials__detailes">25 лет, водитель трамвая</span> <span class="testimonials__name">Николай Петров</span>
+            <p class="testimonials__text">&#xab;Это приложение перевернуло мой мир и позволила по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&#xbb;</p>
+          </article>
+          <article class="testimonials__item">
+            <span class="testimonials__detailes">12 лет, школьник</span> <span class="testimonials__name">Василий Иванов</span>
+            <p class="testimonials__text">&#xab;Мне все понравилось! Я узнал много нового!&#xbb;</p>
+          </article>
+          <article class="testimonials__item">
+            <span class="testimonials__detailes">20 лет, студент</span> <span class="testimonials__name">Игорь Игрушкин</span>
+            <p class="testimonials__text">&#xab;Приложение клевое, но есть несколько но. Когда будут другие цвета? Почему такая цена? Для студентов дорого...&#xbb;</p>
+          </article>
+        </div>
+        <div class="testimonials__pagination slider__pagination">
+          <span class="slider__pagination-item slider__pagination-item--active"></span> <span class="slider__pagination-item"></span> <span class="slider__pagination-item"></span>
+        </div>
+      </div>
+    </section>
+    <section class="price-list">
+     <h2 class="semantic-header">Наши цены</h2>
+      <div class="price-list__container">
+        <input class="price-list-btn" id="price-list-btn-1" name="price-list-toggle" type="radio"> <input checked class="price-list-btn" id="price-list-btn-2" name="price-list-toggle" type="radio"> <input class="price-list-btn" id="price-list-btn-3" name="price-list-toggle" type="radio">
+        <table class="price-list__slider">
+          <tr>
+            <td class="price-list__options price-list__options--hidden"></td>
+            <td class="price-list__package" colspan="2">
+              <b class="price-list__package-title">База</b>
+              <p class="price-list__package-price">1,99 USD</p>
+            </td>
+            <td class="price-list__package" colspan="2">
+              <div class="price-list__package-hit">
+                Хит
+              </div><b class="price-list__package-title">Стандарт</b>
+              <p class="price-list__package-price">3,99 USD</p>
+            </td>
+            <td class="price-list__package" colspan="2">
+              <b class="price-list__package-title">Анлим</b>
+              <p class="price-list__package-price">9,99 USD</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="price-list__options">Розовый фильтр</td>
+            <td class="price-list__condition"><span>Розовый фильтр</span></td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__condition">Розовый фильтр</td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__condition">Розовый фильтр</td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+          </tr>
+          <tr>
+            <td class="price-list__options">Смайлики</td>
+            <td class="price-list__condition">Смайлики</td>
+            <td class="price-list__icon"><img alt="Нет" class="price-list__logo" src="#"></td>
+            <td class="price-list__condition">Смайлики</td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__condition">Смайлики</td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" height="21" src="img/icon-yes.svg" width="31"></td>
+          </tr>
+          <tr>
+            <td class="price-list__options">Комментарии</td>
+            <td class="price-list__condition">Комментарии</td>
+            <td class="price-list__icon"><img alt="Нет" class="price-list__logo" height="26" src="img/icon-no.svg" width="27"></td>
+            <td class="price-list__condition">Комментарии</td>
+            <td class="price-list__icon"><img alt="Нет" class="price-list__logo" height="26" src="img/icon-no.svg" width="27"></td>
+            <td class="price-list__condition">Комментарии</td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" height="21" src="img/icon-yes.svg" width="31"></td>
+          </tr>
+        </table>
+        <div class="price-list__slider-controls">
+          <label class="price-list__slider-control" for="price-list-btn-1"></label> <label class="price-list__slider-control" for="price-list-btn-2"></label> <label class="price-list__slider-control" for="price-list-btn-3"></label>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="index-footer">
+   <h2 class="semantic-header">Связаться с нами</h2>
+    <div class="index-footer__contacts">
+      <p class="index-footer__text">Остались вопросы? Свяжитесь с нами!</p>
+      <div class="index-footer__inner">
+        <p class="index-footer__phone"><span>Звоните:</span>+7 (812) 555-66-66</p>
+        <p class="index-footer__email"><span>Пишите:</span><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+        <p class="index-footer__visit"><span>Приезжайте в гости:</span>ул. Большая Конюшенная, 19/8</p>
+      </div>
+    </div>
+    <div class="index-footer__map"><img alt="Мы находимся по адресу ул. Большая Конюшенная 19/8" src="#"></div>
+    <div class="page-footer page-footer--index">
+      <div class="page-footer__inner">
+        <span class="page-footer__logo"></span>
+        <div class="social-btn">
+          <a class="social-btn__tw" href="#" title="Твиттер"></a> <a class="social-btn__fb" href="#" title="Фейсбук"></a> <a class="social-btn__yt" href="#" title="YouTube"></a>
+        </div>
+        <p class="page-footer__copyright">Разработано <a class="page-footer__academy-logo" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" title="HTML Academy"></a></p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
