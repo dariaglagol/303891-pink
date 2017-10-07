@@ -1,0 +1,21 @@
+.gallery__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery__desc {
+  width: 250px;
+  margin: 0 auto;
+  padding: 45px 0;
+  font-family: $font-plain;
+  color: $dark-text;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  &--bottom {
+    width: 255px;
+    padding-top: 21px;
+    padding-bottom: 42px;
+  }
+}

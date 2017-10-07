@@ -1,0 +1,14 @@
+.textarea__field {
+  width: 280px;
+  border: none;
+  textarea {
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    padding-top: 14px;
+    @include form-typography;
+  }
+  .form__text--pink {
+    padding-bottom: 17px;
+  }
+}

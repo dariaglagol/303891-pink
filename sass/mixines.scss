@@ -1,0 +1,6 @@
+@mixin form-typography () {
+  font-family: $font-plain;
+  font-size: 18px;
+  line-height: 30px;
+  color: $dark-text;
+}

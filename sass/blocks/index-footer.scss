@@ -1,0 +1,84 @@
+.index-footer__contacts {
+  position: relative;
+  background-color: #ffffff;
+  z-index: 2;
+  span {
+    display: block;
+    font-family: $font-bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: $dark-text;
+    text-align: center;
+  }
+}
+
+.index-footer__text {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 43px;
+  padding-bottom: 14px;
+  font-family: $font-light;
+  color: $dark-text;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.index-footer__phone,
+.index-footer__email,
+.index-footer__visit {
+  margin: 0px;
+  padding-top: 19px;
+  font-family: $font-light;
+  color: $pink-text;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.index-footer__phone span{
+  line-height: 25px;
+}
+
+.index-footer__email a {
+  color: $pink-text;
+  text-decoration: none;
+  line-height: 34px;
+}
+
+.index-footer__map {
+  position: relative;
+  overflow: hidden;
+}
+
+.index-footer>.page-footer {
+  display: none;
+}
+
+.index-footer__visit {
+  padding-top: 21px;
+  padding-bottom: 40px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.index-footer__map {
+  position: relative;
+  height: 200px;
+  img {
+    display: block;
+    margin: 0 auto;
+    background-position: center bottom;
+  }
+}
+
+.index-footer__map::after {
+  content: "";
+  position: absolute;
+  bottom: 164px;
+  left: 2px;
+  width: 320px;
+  height: 40px;
+  background: url("../img/bg-triangle-white-footer.svg") no-repeat center;
+  background-size: contain;
+}

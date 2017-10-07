@@ -1,0 +1,65 @@
+.features {
+  padding-top: 41px;
+}
+
+.features__desc p {
+  width: 280px;
+  margin: 0 auto;
+  padding-bottom: 27px;
+  font-family: $font-light;
+  color: #283645;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.features__wrap {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: #f2f2f2;
+}
+
+.features__item {
+  position: relative;
+  margin: 0px;
+  width: 280px;
+  padding-top: 29px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $font-plain;
+  text-align: center;
+  b {
+    display: block;
+    padding-bottom: 8px;
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  &--mood {
+    padding-top: 84px;
+  }
+
+//  &--world{
+//    display: none;
+//  }
+
+  &--friends {
+    padding-bottom: 318px;
+    width: 250px;
+  }
+
+  &--friends::after {
+    content: "";
+    position: absolute;
+    bottom: -42px;
+    left: 50%;
+    margin-left: -78px;
+    width: 157px;
+    height: 320px;
+    background-image: url("../img/iphone-screen-mobile@1x.png");
+    background-size: contain;
+    z-index: 1;
+  }
+}

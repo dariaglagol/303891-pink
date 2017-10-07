@@ -1,0 +1,52 @@
+.download {
+  display: flex;
+  flex-direction: column;
+  padding-top: 27px;
+  background-color: #1d2631;
+}
+
+.download__store-icon {
+  display: block;
+  width: 53px;
+  height: 58px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  &--apple {
+    background: url("../img/logo-apple.svg") no-repeat center;
+    background-size: 53px 58px;
+  }
+  &--android {
+    background: url("../img/logo-android.svg") no-repeat 5px 8px;
+    background-size: 43px 48px;
+  }
+  &--windows {
+    background: url("../img/logo-microsoft.svg") no-repeat 3px 11px;
+    background-size: 44px 42px;
+  }
+}
+
+.download__call {
+  display: none;
+  font-family: $font-light;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.download__desc {
+  width: 235px;
+  padding-bottom: 29px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $font-light;
+  color: #ffffff;
+  text-align: center;
+}
+
+.download__store-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 38px 21px;
+}

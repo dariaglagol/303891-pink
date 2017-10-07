@@ -1,0 +1,37 @@
+.name {
+  padding-bottom: 10px;
+}
+
+.name__user-name {
+  width: 280px;
+  border: none;
+  label {
+    display: block;
+    padding-left: 23px;
+    padding-bottom: 4px;
+    font-family: $font-plain;
+    font-size: 14px;
+    line-height: 30px;
+    color: $pink-text;
+    text-transform: uppercase;
+  }
+  input {
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-left: 21px;
+    box-sizing: border-box;
+    @include form-typography;
+    line-height: 30px;
+    border: $form-border;
+  }
+  span {
+    display: none;
+  }
+}
+
+.name__data {
+  margin: 0 auto;
+  padding-bottom: 17px;
+}

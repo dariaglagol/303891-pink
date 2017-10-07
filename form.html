@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -10,24 +11,25 @@
     <h1 class="semantic-header">Мобильное приложение &#xab;PINK&#xbb;</h1>
     <nav class="main-nav">
       <div class="main-nav__inner">
-        <a class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="#" width="92"></a>
+        <a href="index.html" class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="img/logo-pink-white-mobile.svg" width="92"></a>
+        <button class="main-nav__toggle" type="button"></button>
         <ul class="main-nav__wrapper nav-list">
           <li class="nav-list__item">
-            <a>Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li class="nav-list__item">
             <a href="gallery.html">Фотографии</a>
           </li>
           <li class="nav-list__item">
-            <a href="form.html">Конкурс</a>
+            <a>Конкурс</a>
           </li>
           <li class="nav-list__item">
             <a href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
           </li>
-        </ul><button class="main-nav__toggle" type="button"></button>
+        </ul>
       </div>
     </nav>
-    <div class="banner">
+    <div class="banner banner--form">
       <h2 class="banner__header banner__header--long">Конкурс на самое безбашенное путешествие с Пинк</h2>
     </div>
   </header>
@@ -52,10 +54,10 @@
           <legend class="form__text form__text--pink">Ваши безбашенные достижения в путешествии</legend>
           <div class="achievement__list">
             <div class="achievement__shark">
-              <input id="shark" name="achivment" type="checkbox" value="Сделал селфи с акулой"> <label for="shark">Сделал селфи с акулой</label>
+              <input id="shark" name="achivment" type="checkbox" value="Сделал селфи с акулой" checked> <label for="shark">Сделал селфи с акулой</label>
             </div>
             <div class="achievement__beach">
-              <input id="beach" name="achivment" type="checkbox" value="Обгорел на пляже"> <label for="beach">Обгорел на пляже</label>
+              <input id="beach" name="achivment" type="checkbox" value="Обгорел на пляже" checked> <label for="beach">Обгорел на пляже</label>
             </div>
             <div class="achievement__norris">
               <input id="norris" name="achivment" type="checkbox" value="Видел Чака Норриса"> <label for="norris">Видел Чака Норриса</label>
@@ -64,7 +66,7 @@
               <input id="souvenires" name="achivment" type="checkbox" value="Накупил сувениров"> <label for="souvenires">Накупил сувениров</label>
             </div>
             <div class="achievement__tower">
-              <input id="tower" name="achivmentr" type="checkbox" value="Ударжал башню"> <label for="tower">Удержал башню</label>
+              <input id="tower" name="achivmentr" type="checkbox" value="Ударжал башню" checked> <label for="tower">Удержал башню</label>
             </div>
             <div class="achievement__destroy">
               <input id="destroy" name="achivment" type="checkbox" value="Разгромил отель"> <label for="destroy">Разгромил отель</label>
@@ -76,7 +78,7 @@
         <fieldset class="contacts__fields">
           <legend class="form__text form__text--pink form__text--invisible">Контактная информация</legend>
           <div class="contacts__phone">
-            <label class="phone" for="user-phone">Номер телефона</label> <input id="user-phone" name="contact" placeholder="Номер, пожайлуйста" type="tel">
+            <label class="phone" for="user-phone">Номер телефона</label> <input id="user-phone" name="contact" placeholder="Номер, пожалуйста" type="tel">
           </div>
           <div class="contacts__email">
             <label class="mail" for="user-email">Адрес почты</label> <input id="user-email" name="contact" placeholder="Введите почту*" type="email">
@@ -87,7 +89,7 @@
         <fieldset class="apps__list">
           <legend class="form__text form__text--pink">С каким приложением путешествовали?</legend>
           <div class="apps__ios">
-            <input id="iOS" name="app" type="radio" value="iOS"> <label for="iOS">Pink для iOS</label>
+            <input id="iOS" name="app" type="radio" value="iOS" checked> <label for="iOS">Pink для iOS</label>
           </div>
           <div class="apps__android">
             <input id="android" name="app" type="radio" value="Android"> <label for="android">Pink на Android</label>

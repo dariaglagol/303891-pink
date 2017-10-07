@@ -1,0 +1,31 @@
+.contacts {
+  padding-top: 32px;
+  padding-bottom: 10px;
+}
+.contacts__fields {
+  width: 280px;
+  margin: 0 auto;
+  border: none;
+  label {
+    display: block;
+    padding-left: 23px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: $font-plain;
+    line-height: 30px;
+    color: $pink-text;
+    text-transform: uppercase;
+  }
+
+  input {
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    padding: 15px;
+    padding-left: 21px;
+    box-sizing: border-box;
+    @include form-typography;
+    border: $form-border;
+  }
+}

@@ -1,0 +1,47 @@
+.page-footer__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 280px;
+  margin: auto;
+}
+
+.page-footer__logo {
+  display: block;
+  margin: 0px auto;
+  background-image: url("../img/logo-pink-blue-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 42px;
+  margin: 0 auto;
+}
+
+.page-footer__copyright {
+  position: relative;
+  margin: auto;
+  padding-right: 41px;
+  font-family: $font-plain;
+  font-size: 14px;
+  line-height: 18px;
+  color: $dark-text;
+  text-align: center;
+  a {
+      position: absolute;
+      top: -8px;
+      right: -3px;
+      background-image: url(../img/logo-htmlacademy.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 33px;
+      height: 37px;
+  }
+}
+
+.page-footer {
+  padding: 42px 0;
+}
+
+.page-footer--form {
+  padding: 53px 0;
+}
