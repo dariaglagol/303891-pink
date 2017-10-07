@@ -1,0 +1,38 @@
+.filters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 42px;
+  padding-bottom: 75px;
+}
+
+.filters__inner {
+  position: relative;
+}
+
+.filters__option {
+  width: 45px;
+  height: 45px;
+}
+
+.filters__cut {
+  margin-left: 16px;
+  background: url("../img/icon-editor-crop.svg") no-repeat center;
+  background-size: 45px;
+  border: none;
+}
+
+.filters__color {
+  margin-top: 3px;
+  background: url("../img/icon-editor-fill.svg") no-repeat center;
+  background-size: 51px 45px;
+  border: none;
+}
+
+.filters__contrast {
+  margin-right: 18px;
+  background: url(../../img/icon-editor-contrast.svg) no-repeat center;
+  background-size: 33px;
+  border: none;
+}

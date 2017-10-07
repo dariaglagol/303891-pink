@@ -2,14 +2,17 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Пинк</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
     <h1 class="semantic-header">Мобильное приложение &#xab;PINK&#xbb;</h1>
     <nav class="main-nav">
       <div class="main-nav__inner">
-        <a class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="#" width="92"></a>
+        <a class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="img/logo-pink-white-mobile.svg" width="92"></a>
+        <button class="main-nav__toggle" type="button"></button>
         <ul class="main-nav__wrapper nav-list">
           <li class="nav-list__item">
             <a>Главная</a>
@@ -23,14 +26,18 @@
           <li class="nav-list__item">
             <a href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
           </li>
-        </ul><button class="main-nav__toggle" type="button"></button>
+        </ul>
       </div>
     </nav>
     <div class="banner">
       <div class="banner__hand-picture"></div>
       <div class="download">
         <button class="btn btn--download-block">Скачать приложение</button>
-        <div class="download__store-icon"><img alt="" class="download__store-icon download__store-icon--apple" src="#"> <img alt="" class="download__store-icon download__store-icon--android" src="#"> <img alt="" class="download__store-icon download__store-icon--windows" src="#"></div>
+        <div class="download__store-icons">
+          <a href="#" class="download__store-icon download__store-icon--apple">AppStore</a>
+          <a href="#" class="download__store-icon download__store-icon--android">GooglePlay</a>
+          <a href="#" class="download__store-icon download__store-icon--windows">Windows</a>
+        </div>
         <p class="download__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
     </div>
@@ -42,7 +49,11 @@
         <p>Устали от серости мегаполиса?</p>
         <p>Нам есть что вам предложить!</p>
       </div>
-      <div class="features__wrap"></div>
+      <div class="features__wrap">
+        <p class="features__item features__item--mood"><b>Поднимает настроение</b> Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов</p>
+        <p class="features__item features__item--world"><b>Меняет мир вокруг</b> Сделайте снимок и украсте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        <p class="features__item features__item--friends"><b>Заводит новых друзей</b> Ставьте лайки, комментируйте делитесь фотографиями с друзьями и заводите новых</p>
+      </div>
     </section>
     <section class="testimonials">
       <div class="slider">
@@ -67,7 +78,7 @@
       </div>
     </section>
     <section class="price-list">
-     <h2 class="semantic-header">Наши цены</h2>
+      <h2 class="semantic-header">Наши цены</h2>
       <div class="price-list__container">
         <input class="price-list-btn" id="price-list-btn-1" name="price-list-toggle" type="radio"> <input checked class="price-list-btn" id="price-list-btn-2" name="price-list-toggle" type="radio"> <input class="price-list-btn" id="price-list-btn-3" name="price-list-toggle" type="radio">
         <table class="price-list__slider">
@@ -91,18 +102,18 @@
           <tr>
             <td class="price-list__options">Розовый фильтр</td>
             <td class="price-list__condition"><span>Розовый фильтр</span></td>
-            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="img/icon-yes.svg"></td>
             <td class="price-list__condition">Розовый фильтр</td>
-            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="img/icon-yes.svg"></td>
             <td class="price-list__condition">Розовый фильтр</td>
-            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="img/icon-yes.svg"></td>
           </tr>
           <tr>
             <td class="price-list__options">Смайлики</td>
             <td class="price-list__condition">Смайлики</td>
-            <td class="price-list__icon"><img alt="Нет" class="price-list__logo" src="#"></td>
+            <td class="price-list__icon"><img alt="Нет" class="price-list__logo" src="img/icon-no.svg"></td>
             <td class="price-list__condition">Смайлики</td>
-            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="#"></td>
+            <td class="price-list__icon"><img alt="Да" class="price-list__logo" src="img/icon-yes.svg"></td>
             <td class="price-list__condition">Смайлики</td>
             <td class="price-list__icon"><img alt="Да" class="price-list__logo" height="21" src="img/icon-yes.svg" width="31"></td>
           </tr>
@@ -123,7 +134,7 @@
     </section>
   </main>
   <footer class="index-footer">
-   <h2 class="semantic-header">Связаться с нами</h2>
+    <h2 class="semantic-header">Связаться с нами</h2>
     <div class="index-footer__contacts">
       <p class="index-footer__text">Остались вопросы? Свяжитесь с нами!</p>
       <div class="index-footer__inner">
@@ -132,7 +143,7 @@
         <p class="index-footer__visit"><span>Приезжайте в гости:</span>ул. Большая Конюшенная, 19/8</p>
       </div>
     </div>
-    <div class="index-footer__map"><img alt="Мы находимся по адресу ул. Большая Конюшенная 19/8" src="#"></div>
+    <div class="index-footer__map"><img alt="Мы находимся по адресу ул. Большая Конюшенная 19/8" src="img/bg-map-mobile@1x.png"></div>
     <div class="page-footer page-footer--index">
       <div class="page-footer__inner">
         <span class="page-footer__logo"></span>

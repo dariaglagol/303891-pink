@@ -1,0 +1,51 @@
+.form__text {
+  width: 280px;
+  padding-top: 46px;
+  padding-bottom: 34px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: $font-plain;
+  line-height: 30px;
+  color: $dark-text;
+  text-align: center;
+}
+
+.form__text--pink {
+  width: 225px;
+  padding-top: 37px;
+  padding-bottom: 21px;
+  text-transform: uppercase;
+  color: $pink-text;
+  line-height: 18px;
+}
+
+.form__desc {
+  display: block;
+  font-family: $font-plain;
+  font-size: 14px;
+  line-height: 30px;
+  color: $dark-text;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form {
+  fieldset {
+    margin: 0 auto;
+    padding: 0px;
+    padding-bottom: 15px;
+  }
+}
+
+.form__text--invisible {
+  display: none;
+}
+
+.form__desc--invisible {
+  display: none;
+}
+
+.form__send {
+  width:280px;
+  margin: 0 auto;
+}

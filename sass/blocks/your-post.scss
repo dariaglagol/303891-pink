@@ -1,0 +1,22 @@
+.your-post {
+  background-color: #f2f2f2;
+}
+
+.your-post__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  picture {
+    margin: 0 auto;
+  }
+}
+
+.your-post__pict {
+  display: block;
+  margin: 0 auto;
+}
+
+.your-post {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

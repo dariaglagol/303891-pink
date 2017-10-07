@@ -1,0 +1,114 @@
+.gallery-item {
+  margin: 0 auto;
+  margin-bottom: 20.5px;
+}
+
+.gallery-item--panoram {
+  position: relative;
+  width: 100%;
+  margin-bottom: 18px;
+  padding-top: 4px;
+  &::before {
+    content: "Панорама дня";
+    position: absolute;
+    right: 19px;
+    width: 140px;
+    height: 36px;
+    padding: 4px 17px;
+    font-family: $font-plain;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: #d22856;
+  }
+}
+
+.gallery-item__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  padding: 18px 17px 25px;
+  background-color: #f2f2f2;
+  &--bottom {
+    padding-top: 19px
+  }
+  &--panoram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 280px;
+    padding: 19px 14px 25px;
+    font-family: $font-plain;
+    background-color: #f2f2f2;
+  }
+}
+
+.gallery-item__pict {
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery__user-name,
+.gallery-item__user-name {
+  margin: 0px;
+  padding-left: 2px;
+  font-family: $font-bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: $dark-text;
+}
+
+.gallery__user-time,
+.gallery-item__user-time {
+  font-family: $font-light;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.gallery__user-text,
+.gallery-item__user-text {
+  margin: 0;
+  font-family: $font-plain;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.gallery-item__like--panoram,
+.gallery-item__like {
+  margin: 0px;
+  padding-top: 14px;
+  padding-left: 34px;
+  font-family: $font-plain;
+  font-size: 12px;
+  line-height: 15px;
+  color: $pink-text;
+  text-transform: uppercase;
+}
+
+.gallery-item__like::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 15px;
+  bottom: 22px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icon-heart.svg") center no-repeat;
+}
+
+.gallery-item__like--panoram::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 14px;
+  bottom: 22px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icon-heart.svg") center no-repeat;
+}

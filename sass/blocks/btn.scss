@@ -1,0 +1,55 @@
+.btn {
+  width: 280px;
+  margin: 0 auto;
+  border: 3px solid;
+  border-radius: 20px;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  &--post {
+    display: block;
+    padding: 15px 0;
+    color: $pink-text;
+    background-color: #f2f2f2;
+    border: 3px solid #d22856;
+    border-radius: 30px;
+  }
+
+  &--disabled {
+    display: block;
+    padding: 15px 10px;
+    margin-top: 12px;
+    color: #dddfe0;
+    border-color: #dddfe0;
+    background-color: transparent;
+  }
+
+  &--invert {
+    margin-top: 28px;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    border-color: #ffffff;
+    border-radius: 60px;
+  }
+
+  &--send {
+    display: block;
+    margin: 29px auto;
+    margin-bottom: 37px;
+    padding: 19px 43px;
+    color: #ffffff;
+    background-color: #2aab6d;
+    border: 3px solid #2aab6d;
+    border-radius: 0px;
+    text-transform: uppercase;
+  }
+  &--download-block {
+    padding: 16px 0;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 55px;
+    background: transparent;
+  }
+}
