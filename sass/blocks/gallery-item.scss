@@ -121,6 +121,13 @@
   .gallery-item:nth-child(even) {
     padding-right: 10px;
   }
+  .gallery-item--panoram {
+    padding-left: 0px;
+  }
+
+  .gallery-item__pict--panoram {
+    width: 100%;
+  }
 
   .gallery-item__pict {
     width: 300px;
