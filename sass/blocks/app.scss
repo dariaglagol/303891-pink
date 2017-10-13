@@ -8,11 +8,11 @@
     padding-left: 70px;
     padding-bottom: 45px;
   }
-  
+
   input[type="radio"] {
     display: none;
   }
-  
+
   input[type="radio"]+label::before {
     content: "";
     position: absolute;
@@ -24,7 +24,7 @@
     border: 2px solid #e5e5e5;
     border-radius: 50%;
   }
-  
+
   input[type="radio"]:checked+label::after {
     content: "";
     position: absolute;
@@ -44,4 +44,77 @@
 
 .apps__windows label {
   padding-bottom: 32px;
+}
+
+@media(min-width:$tablet) {
+  .apps {
+    margin-top: 46px;
+    order: 2;
+  }
+
+  .apps__ios {
+    padding-top: 12px;
+  }
+
+  .apps__windows {
+    padding-bottom: 28px;
+  }
+
+  .apps__list {
+    width: 620px;
+    border: 2px solid #e5e5e5;
+    .form__text--pink {
+      width: auto;
+      padding: 0px 32px;
+      font-size: 14px;
+    }
+
+    label {
+     padding-left: 120px;
+    }
+
+    input[type="radio"]+label::before {
+      left: 60px;
+    }
+
+    input[type="radio"]:checked+label::after {
+      left: 72px;
+    }
+  }
+}
+
+@media(min-width:$desktop) {
+  .apps {
+    margin-top: 36px;
+  }
+
+  .apps__list {
+    width: 435px;
+    .form__text--pink {
+      padding: 0 26px;
+    }
+
+    label {
+      padding-left: 135px;
+      padding-top: 5px;
+      padding-bottom: 38px;
+    }
+
+    .apps__windows {
+      padding-bottom: 0px;
+      label {
+       padding-bottom: 61px;
+      }
+    }
+
+    input[type="radio"]+label::before {
+      top: -1px;
+      left: 73px;
+    }
+
+    input[type="radio"]:checked+label::after {
+      left: 86px;
+      top: 14px;
+    }
+  }
 }

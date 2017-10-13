@@ -47,3 +47,27 @@
   width: 230px;
   text-indent: 3px;
 }
+
+@media(min-width: $tablet) {
+  .banner {
+    position: relative;
+    padding-top: 141px;
+    padding-bottom: 139px;
+    background-size: cover;
+  }
+  .banner__hand-picture {
+    padding-top:  688px;
+  }
+  .banner__hand-picture:after {
+    bottom: 0px;
+    left: 150px;
+    width: 510px;
+    height: 547px;
+    background-size: 454px 545px;
+  }
+  .banner__header {
+    width: 355px;
+    font-size: 50px;
+    line-height: 59px;
+  }
+}

@@ -25,3 +25,22 @@
      text-decoration: none;
    }
 }
+
+@media(min-width:$desktop) {
+  .nav-list {
+    flex-direction: row;
+    flex-basis: 620px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+  }
+
+  .nav-list__item {
+    padding-bottom: 45px;
+    font-family: $font-plain;
+    background-color: transparent;
+    border: none;
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+}

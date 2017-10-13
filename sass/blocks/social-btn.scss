@@ -8,22 +8,16 @@
 }
 
 .social-btn__tw {
-  width: 47px;
-  height: 47px;
   background: url(../img/icon-twitter.svg) no-repeat center;
   background-size: 19px;
 }
 
 .social-btn__fb {
-  width: 47px;
-  height: 47px;
   background: url("../img/icon-facebook.svg") no-repeat center;
   background-size: 9px 19px;
 }
 
 .social-btn__yt{
-  width: 47px;
-  height: 47px;
   background: url("../img/icon-youtube.svg") no-repeat center;
   background-size: 16px;
 }
@@ -31,6 +25,51 @@
 .social-btn__tw,
 .social-btn__fb,
 .social-btn__yt {
+  width: 47px;
+  height: 47px;
   border: 3px solid #e9ebec;
   border-radius: 50%;
+}
+
+@media(min-width:$tablet) {
+  .social-btn {
+    width: 231px;
+    margin: 0px;
+    padding-left: 19px;
+  }
+
+  .social-btn__tw,
+  .social-btn__fb,
+  .social-btn__yt {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .social-btn__fb {
+    margin-right: -5px;
+  }
+
+  .social-btn__yt {
+    margin-right: 42px;
+  }
+}
+
+@media(min-width:$desktop) {
+  .social-btn {
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-left: 33px;
+  }
+
+  .social-btn__tw {
+    margin-left: 6px;
+  }
+
+  .social-btn__fb {
+    margin-right: 0px;
+  }
+
+  .social-btn__yt {
+    margin-right: 23px;
+  }
 }

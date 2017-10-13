@@ -12,3 +12,51 @@
     padding-bottom: 17px;
   }
 }
+
+@media(min-width:$tablet) {
+  .textarea {
+    margin-top: 58px;
+    order: 5;
+    .textarea__field  {
+      padding-top: 39px;
+    }
+  }
+
+  .textarea__field {
+    width: 620px;
+    border: 2px solid #e5e5e5;
+    .form__text--pink {
+      width: auto;
+      padding: 0 32px;
+      font-size: 14px;
+    }
+
+    textarea {
+      display: block;
+      width: 500px;
+      height: 190px;
+      margin: 0 auto;
+      margin-bottom: 52px;
+    }
+  }
+}
+
+@media(min-width:$desktop) {
+  .textarea {
+    width: 100%;
+    .textarea__field {
+      padding-top: 29px;
+    }
+  }
+
+  .textarea__field {
+    width: 940px;
+    textarea {
+      width: 820px;
+      height: 128px;
+      margin-top: 5px;
+      margin-bottom: 46px;
+      padding-top: 18px;
+    }
+  }
+}

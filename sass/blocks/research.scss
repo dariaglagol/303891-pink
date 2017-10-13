@@ -1,0 +1,141 @@
+.research__inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.research__image {
+  width: 310px;
+}
+
+.research__header {
+  margin: 0px;
+  font-family: $font-bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.research__text,
+.research__link {
+  font-family: $font-plain;
+}
+
+.research {
+  display: none;
+}
+
+@media(min-width:$tablet) {
+  .research {
+    display: block;
+  }
+
+  .research__inner {
+    width: 620px;
+    margin: 0 auto;
+    padding-top: 58px;
+    padding-bottom: 50px;
+  }
+
+  .research__desc {
+    position: relative;
+    width: 310px;
+    padding-top: 38px;
+  }
+
+  .research__text,
+  .research__link {
+      margin: 10px 0;
+      font-size: 14px;
+      line-height: 24px;
+  }
+
+  .research__link {
+    color: $pink-text;
+  }
+
+  .research__image {
+    width: 240px;
+    padding-top: 77px;
+    padding-left: 0px;
+    font-family: $font-bold;
+    font-size: 96px;
+    line-height: 149px;
+    text-align: center;
+    color: $pink-text;
+    span {
+      position: relative;
+      z-index: 1;
+      border: 15px solid;
+      border-radius: 50%;
+      padding: 18px 34px;
+      padding-bottom: 28px;
+    }
+  }
+
+  .research__image::after {
+    content: "";
+    position: absolute;
+    top: 58px;
+    left: 2px;
+    width: 240px;
+    height: 278px;
+    background: url("../img/icon-timer.svg") no-repeat center;
+    background-size: contain;
+  }
+}
+
+@media(min-width:$desktop) {
+  .research {
+    background-color: #f2f2f2;
+  }
+
+  .research__inner {
+    width: 940px;
+    padding-bottom: 28px;
+  }
+
+  .research__image {
+    width:300px;
+    height: 300px;
+    padding-top: 80px;
+    font-size: 122px;
+    line-height: 149px;
+    span {
+      padding: 20px 42px 36px 40px;
+    }
+    &::after {
+      top: 23px;
+      left: -2px;
+      width: 308px;
+      height: 348px;
+    }
+  }
+
+  .research__desc {
+    width: 542px;
+    padding-top: 57px;
+    padding-bottom: 85px;
+    margin-right: 31px;
+  }
+
+  .research__text {
+    margin: 20px 0;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .research__link {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .research__header br {
+    display: none;
+  }
+
+  .research__text br {
+    display: none;
+  }
+}

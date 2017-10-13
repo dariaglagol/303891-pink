@@ -36,3 +36,69 @@
     background-color: #d22856;
   }
 }
+
+@media(min-width:$tablet) {
+  .control-bar {
+    display: block;
+    width: 290px;
+    border: none;
+    left: 6px;
+    top: -4px;
+    .control-bar__full {
+      display: block;
+      width: 202px;
+      margin: 23px auto;
+      margin-right: 32px;
+    }
+
+    .control-bar__thumb {
+      display: block;
+      top: 16px;
+    }
+  }
+
+  .control-bar--cut .control-bar__thumb {
+    right: 73px;
+  }
+
+  .control-bar--color .control-bar__thumb {
+    right: 194px;
+  }
+
+  .control-bar--contrast {
+    .control-bar__full {
+      margin: 17px auto;
+      margin-right: 32px;
+    }
+    .control-bar__thumb {
+      top: 11px;
+      right: 121px;
+    }
+  }
+}
+
+@media(min-width:$desktop) {
+  .control-bar {
+    left: 54px;
+    .control-bar__full {
+      width: 290px;
+      margin-right: -39px;
+    }
+  }
+  .control-bar--contrast {
+    .control-bar__full {
+      margin-right: -39px;
+    }
+    .control-bar__thumb {
+      right: 77px;
+    }
+  }
+
+  .control-bar--cut .control-bar__thumb {
+    right: 167px;
+  }
+
+  .control-bar--color .control-bar__thumb {
+    right: -9px;
+  }
+}
