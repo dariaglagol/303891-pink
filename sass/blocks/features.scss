@@ -74,8 +74,6 @@
   .features__desc {
     margin: 0px;
     padding-bottom: 43px;
-    font-size: 40px;
-    line-height: 48px;
     p {
       width: auto;
       padding-bottom: 4px;
@@ -134,15 +132,16 @@
     padding-top: 68px;
   }
 
-  .features__promo-header-first,
-  .features__promo-header-second {
+  .features__desc p {
     font-size: 50px;
     line-height: 59px;
+    padding-bottom: 0px;
   }
 
-  .features__promo-header-second {
+  .features__desc p:last-child {
     width: 420px;
     padding-bottom: 78px;
+    line-height: 59px;
     &::after {
       left: -390px;
       bottom: -128px;
@@ -151,21 +150,22 @@
     }
   }
 
-  .features__list {
+  .features__wrap {
     display: flex;
     justify-content: space-between;
     padding: 0 162px;
-    padding-top: 355px;
+    padding-top: 313px;
   }
 
   .features__item {
     width: 238px;
     margin-left: 0px;
     padding-top: 0px;
+    padding-right: 0px;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    span {
+    b {
       font-size: 30px;
       line-height: 30px;
       padding-bottom: 24px;
@@ -201,6 +201,10 @@
       height: 550px;
       background: url("../img/iphone-screen-3-desktop@1x.png") center no-repeat;
       background-size: contain;
+    }
+    &--friends b {
+      width: 210px;
+      margin: 0 auto;
     }
   }
 }
