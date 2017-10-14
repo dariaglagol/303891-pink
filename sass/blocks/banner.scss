@@ -4,6 +4,12 @@
   background-size: auto;
 }
 
+.banner__inner-container {
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .banner--gallery {
   padding-top: 99px;
   padding-bottom: 81px;
@@ -55,6 +61,11 @@
     padding-bottom: 139px;
     background-size: cover;
   }
+  .banner__inner-container {
+    width: 660px;
+    margin: 0 auto;
+    position: relative;
+  }
   .banner--form {
     padding-bottom: 81px;
   }
@@ -84,8 +95,17 @@
     padding-top: 241px;
     padding-bottom: 205px;
   }
+  .banner__inner-container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
   .banner__hand-picture::after {
     bottom: -205px;
     left: 471px;
+  }
+  .banner--gallery {
+    padding-top: 175px;
+    padding-bottom: 100px;
   }
 }
