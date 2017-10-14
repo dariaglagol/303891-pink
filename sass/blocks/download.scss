@@ -54,7 +54,7 @@
 @media(min-width:$tablet) {
   .download {
     position: absolute;
-    top: 136px;
+    top: -5px;
     left: 20px;
     z-index: 1;
     width: 300px;
@@ -82,7 +82,7 @@
 
 @media(min-width:$desktop) {
   .download {
-    top: 194px;
+    top: -48px;
     left: 130px;
   }
 
