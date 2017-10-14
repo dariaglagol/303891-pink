@@ -30,6 +30,10 @@
     width: $tablet;
     margin: 0 auto;
   }
+  .gallery__desc--bottom {
+    padding-top: 45px;
+    padding-bottom: 70px;
+  }
 }
 
 @media(min-width:$desktop) {
