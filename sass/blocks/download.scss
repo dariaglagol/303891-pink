@@ -82,8 +82,8 @@
 
 @media(min-width:$desktop) {
   .download {
-    margin-left: 129px;
-    margin-top: -622px;
+    top: 194px;
+    left: 130px;
   }
 
   .download__call {
@@ -94,7 +94,7 @@
 
   .download__store-icons{
     padding-top: 66px;
-    padding-bottom: 46px;
+    padding-bottom: 53px;
   }
 
   .download__desc {
