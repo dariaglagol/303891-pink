@@ -77,3 +77,15 @@
     width: 500px;
   }
 }
+
+@media(min-width:$desktop) {
+  .banner{
+    margin-top: -110px;
+    padding-top: 241px;
+    padding-bottom: 205px;
+  }
+  .banner__hand-picture::after {
+    bottom: -205px;
+    left: 471px;
+  }
+}
