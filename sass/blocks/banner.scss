@@ -55,11 +55,14 @@
     padding-bottom: 139px;
     background-size: cover;
   }
+  .banner--form {
+    padding-bottom: 81px;
+  }
   .banner__hand-picture {
-    padding-top:  688px;
+    padding-top:  407px;
   }
   .banner__hand-picture:after {
-    bottom: 0px;
+    bottom: -140px;
     left: 150px;
     width: 510px;
     height: 547px;
@@ -69,5 +72,8 @@
     width: 355px;
     font-size: 50px;
     line-height: 59px;
+  }
+  .banner__header--long {
+    width: 500px;
   }
 }
