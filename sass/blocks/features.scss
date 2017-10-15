@@ -155,9 +155,14 @@
     padding-bottom: 0px;
   }
 
+  .features__desc::after {
+    height: 94px;
+    bottom: -94px;
+  }
+
   .features__desc p:last-child {
     width: 420px;
-    padding-bottom: 78px;
+    padding-bottom:36px;
     line-height: 59px;
     &::after {
       left: -390px;
@@ -171,7 +176,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 162px;
-    padding-top: 313px;
+    padding-top: 356px;
   }
 
   .features__item {

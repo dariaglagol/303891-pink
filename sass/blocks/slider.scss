@@ -22,3 +22,15 @@
   border-radius: 50%;
   background-color: #ffffff;
 }
+
+@media(min-width: $tablet) {
+  .slider__pagination {
+    margin-bottom: 8px;
+  }
+}
+
+@media(min-width: $desktop) {
+  .slider__pagination {
+    display: none;
+  }
+}
