@@ -1,7 +1,7 @@
 .banner {
   margin-top: -70px;
   background: url("../../img/bg-back-mobile@1x.jpg") no-repeat center 0px;
-  background-size: auto;
+  background-size: cover;
 }
 
 .banner__inner-container {
@@ -25,7 +25,7 @@
 .banner__hand-picture {
   display: block;
   position: relative;
-  padding-top: 395px;
+  padding-top: 465px;
 }
 
 .banner__hand-picture:after {
