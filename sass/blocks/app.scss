@@ -112,9 +112,13 @@
       left: 73px;
     }
 
+    input[type="radio"]:checked+label::before {
+      border-color: #d22856;
+    }
+
     input[type="radio"]:checked+label::after {
       left: 86px;
-      top: 14px;
+      top: 12px;
     }
   }
 }
