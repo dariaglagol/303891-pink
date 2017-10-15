@@ -50,3 +50,54 @@
   justify-content: space-around;
   padding: 32px 38px 21px;
 }
+
+@media(min-width:$tablet) {
+  .download {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    z-index: 1;
+    width: 300px;
+    background-color: transparent;
+  }
+
+  .download__call {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .download__store-icons {
+    padding:45px 32px 33px;
+  }
+
+  .download__desc {
+    width: auto;
+    padding-bottom: 35px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media(min-width:$desktop) {
+  .download {
+    top: -48px;
+    left: 130px;
+  }
+
+  .download__call {
+    width: 300px;
+    font-size: 50px;
+    line-height: 59px;
+  }
+
+  .download__store-icons{
+    padding-top: 66px;
+    padding-bottom: 53px;
+  }
+
+  .download__desc {
+    padding-bottom: 120px;
+  }
+}

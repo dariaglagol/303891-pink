@@ -25,3 +25,32 @@
   background-size: 50px;
   border: none;
 }
+
+@media(min-width:$tablet) {
+  .main-nav__toggle {
+    margin-top: 38px;
+  }
+}
+
+@media (min-width:$desktop) {
+  .main-nav {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+    .main-nav__wrapper {
+      display: flex;
+    }
+  }
+
+  .main-nav__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+}

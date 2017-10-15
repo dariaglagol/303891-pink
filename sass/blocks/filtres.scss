@@ -36,3 +36,65 @@
   background-size: 33px;
   border: none;
 }
+
+@media(min-width:$tablet) {
+  .filters {
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 26px;
+  }
+
+  .filters__inner {
+    padding-bottom: 31px;
+  }
+
+  .filters__option {
+    display: block;
+  }
+
+  .filters__contrast,
+  .filters__color,
+  .filters__cut {
+    margin-left: 0px;
+    background-size: 22px;
+    padding: 20px 10px;
+  }
+
+  .filters__cut {
+    height: 37px;
+    width: 44px;
+  }
+
+  .filters__color {
+    margin-top: 0px;
+  }
+
+  .filters__contrast {
+    width: 49px;
+    height: 31px;
+    padding: 16px;
+    background-size: 17px;
+  }
+}
+
+@media(min-width:$desktop) {
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+    margin: 0;
+    padding-left: 0px;
+  }
+
+  .filters__contrast,
+  .filters__color,
+  .filters__cut {
+    background-size: 45px;
+    padding: 20px 0px;
+  }
+
+  .filters__contrast {
+    padding: 15px 0px;
+    background-size: 32px;
+  }
+}

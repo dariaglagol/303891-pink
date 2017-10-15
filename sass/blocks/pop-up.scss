@@ -49,3 +49,50 @@
   line-height: 24px;
   text-align: center;
 }
+
+@media(min-width:$tablet) {
+  .pop-up--fail,
+  .pop-up--success{
+    width: 458px;
+    top: 80px;
+    left: 15%;
+  }
+
+  .pop-up__wrap {
+    padding: 44px 70px;
+    padding-bottom: 0px;
+  }
+
+  .pop-up__header {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .pop-up__text {
+    padding-top: 28px;
+    padding-bottom: 41px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .pop-up__btn {
+    display: block;
+    padding-top: 53px;
+    padding-bottom: 49px;
+    background-color: #f2f2f2;
+    .btn {
+      margin: auto;
+    }
+  }
+}
+
+@media(min-width:$desktop) {
+  .pop-up--success {
+    width: 780px;
+    left: 17.5%;
+  }
+
+  .pop-up--fail {
+    left: 32%;
+  }
+}

@@ -5,3 +5,25 @@
 .user-area__buttons {
   padding-top: 33px;
 }
+
+@media(min-width:$tablet) {
+  .user-area {
+    width: 300px;
+  }
+}
+
+@media(min-width:$desktop) {
+  .user-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 410px;
+    margin: 0;
+  }
+
+  .user-area__buttons {
+    width: 410px;
+    clear: both;
+  }
+}

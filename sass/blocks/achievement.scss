@@ -49,3 +49,61 @@
 .achievement__destroy label {
   padding-bottom: 31px;
 }
+
+@media(min-width:$tablet) {
+  .achievement {
+    margin-top: 44px;
+    order: 4;
+  }
+
+  .achievement__list {
+    padding-top: 13px;
+  }
+
+  .achievement__list-wrapper {
+    width: 620px;
+    border: 2px solid #e5e5e5;
+    .form__text--pink {
+      width: auto;
+      padding: 0px 32px;
+      font-size: 14px;
+    }
+
+    label {
+      padding-left: 120px;
+      padding-bottom: 52px;
+    }
+
+    input[type="checkbox"]+label::before {
+      top: -4px;
+      left: 60px;
+    }
+
+    input[type="checkbox"]:checked+label::after {
+      top: -4px;
+      left: 60px;
+    }
+  }
+}
+
+@media(min-width:$desktop) {
+  .achievement {
+    margin-top: 46px;
+  }
+
+  .achievement__list-wrapper {
+    width: 940px;
+  }
+
+  .achievement__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 184px;
+    label {
+      padding-left: 116px;
+      padding-bottom: 53px;
+    }
+  }
+}

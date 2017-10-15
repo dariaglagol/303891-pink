@@ -162,14 +162,15 @@
   box-shadow: 0 0 0 3px #283645;
 }
 
-@media (min-width: 660px) {
+@media (min-width: $tablet) {
   .price-list {
     min-width: 660px;
   }
 
   .price-list__container {
     margin-bottom: 0;
-    padding-right: 20px;
+    padding-left: 1px;
+    padding-top: 69px;
     padding-bottom: 69px;
     max-width: 620px;
   }
@@ -190,8 +191,11 @@
   .price-list__options {
     display: table-cell;
     width: 155px;
+    font-family: $font-light;
+    font-size: 14px;
+    line-height: 24px;
     box-sizing: border-box;
-    padding: 6px 0 8px 16px;
+    padding: 10px 0 11px 13px;
     border-bottom: 2px solid #e5e5e5;
     border-left: 2px solid #e5e5e5;
     border-right: 2px solid #e5e5e5;
@@ -221,7 +225,7 @@
     position: relative;
     width: 155px;
     box-sizing: border-box;
-    padding: 10px 0 9px 0;
+    padding: 12px 0 15px 0;
     border-left: none;
     border-right: 2px solid #f2f2f2;
 
@@ -230,9 +234,15 @@
     }
   }
 
+  .price-list__package-title {
+    font-size: 17px;
+  }
+
   .price-list__package-price {
     padding: 0;
     margin-top: 0;
+    font-size: 17px;
+    line-height: 21px;
   }
 
   .price-list__package-hit {
@@ -276,13 +286,14 @@
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: $desktop) {
 
   .price-list__container {
     padding-bottom: 96px;
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 940px;
+    padding-top: 93px;
+    max-width: 960px;
   }
 
   .price-list__slider {
@@ -293,6 +304,8 @@
   .price-list__options {
     width: 235px;
     padding: 15px 5px 14px 21px;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .price-list__package {
@@ -324,6 +337,8 @@
 
   .price-list__package-price {
     margin-top: 2px;
+    line-height: 30px;
+    font-size: 24px;
   }
 
   .price-list__icon {

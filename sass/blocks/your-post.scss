@@ -20,3 +20,39 @@
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
+@media(min-width:$tablet) {
+  .your-post {
+    padding: 0px;
+  }
+
+  .your-post__inner {
+    width: 660px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 57px;
+    padding-bottom: 53px;
+    picture {
+      margin: 0px;
+    }
+  }
+
+  .your-post__pict {
+    margin: 0;
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media(min-width:$desktop) {
+  .your-post {
+    width: 940px;
+    margin: 0 auto;
+    padding: 57px 60px 57px 80px;
+  }
+
+  .your-post__inner {
+    width: 800px;
+    padding: 0px;
+  }
+}
