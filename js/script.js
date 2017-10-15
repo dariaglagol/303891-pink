@@ -1,6 +1,6 @@
 var open_btn = document.querySelector(".main-nav__toggle--close");
 var menu = document.querySelector(".nav-list");
-var close = document.querySelector(".main-nav__toggle");
+var close = document.querySelector(".main-nav__toggle--open");
 
 open_btn.addEventListener("click", function(event) {
   event.preventDefault();
