@@ -124,6 +124,7 @@
   .index-footer__map {
     height: 375px;
     iframe {
+      width: $tablet;
       height: 375px;
     }
 
@@ -179,6 +180,7 @@
   .index-footer__map {
     height: 506px;
     iframe {
+      width: $desktop;
       height: 507px;
     }
 
@@ -186,7 +188,7 @@
       bottom: 353px;
       left: 50%;
       margin-left: -615px;
-      width: 1230px; 
+      width: 1230px;
       height: 180px;
     }
   }
