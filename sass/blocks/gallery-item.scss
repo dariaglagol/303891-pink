@@ -199,6 +199,10 @@
 
   .gallery-item__desc {
     padding: 23px 28px 28px;
+    &--panoram {
+      width: 940px;
+      padding:25px 28px 25px;
+    }
   }
 
   .gallery__desc--bottom {
@@ -207,13 +211,21 @@
   }
 
   .gallery-item__like::before {
-    bottom: 26px;
-    right: 29px;
+    bottom: -1px;
+    right: 1px;
+  }
+  .gallery-item__like--panoram::before {
+    right: 0px;
+  }
+  .gallery-item--panoram {
+    margin-bottom: 49px;
+    padding-top: 0px;
   }
   .gallery-item__pict--panoram {
     position: relative;
     left: 50%;
     width: 1200px;
+    height: 506px;
     margin-left: -600px;
     overflow: hidden;
   }
