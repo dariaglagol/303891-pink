@@ -100,6 +100,11 @@
     }
   }
 
+  .features__desc::after {
+    bottom: -54px;
+    height: 54px
+  }
+
   .features__list {
     padding-right: 20px;
   }
