@@ -11,7 +11,13 @@
     <h1 class="semantic-header">Мобильное приложение &#xab;PINK&#xbb;</h1>
     <nav class="main-nav">
       <div class="main-nav__inner">
-        <a class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="img/logo-pink-white-mobile.svg" width="92"></a>
+        <a class="page-header__logo">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/logo-pink-white-desktop.svg">
+            <source media="(min-width: 660px)" srcset="img/logo-pink-white-tablet.svg">
+            <img alt="Логотип приложения Пинк"   height="23" src="img/logo-pink-white-mobile.svg" width="92">
+          </picture>
+        </a>
         <button class="main-nav__toggle main-nav__toggle--close" type="button"></button>
         <ul class="main-nav__wrapper nav-list nav-list--close">
           <li class="nav-list__item">
@@ -156,7 +162,7 @@
         <p class="index-footer__visit"><span>Приезжайте в гости:</span>ул. Большая Конюшенная, 19/8</p>
       </div>
     </div>
-    <div class="index-footer__map"><img alt="Мы находимся по адресу ул. Большая Конюшенная 19/8" src="img/bg-map-mobile@1x.png"></div>
+    <div class="index-footer__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123961!2d30.320894616054524!3d59.93879686904795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1508063817014" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
     <div class="page-footer page-footer--index">
       <div class="page-footer__inner">
         <span class="page-footer__logo"></span>

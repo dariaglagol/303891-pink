@@ -4,15 +4,8 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.main-nav__toggle--open {
-  float: right;
-  width: 50px;
-  height: 34px;
-  margin-top: 16px;
-  margin-right: 7px;
-  background: url("../img/icon-menu-close.svg") no-repeat center;
-  background-size: 24px;
-  border: none;
+.main-nav__inner--colored {
+  background-color: #283645;
 }
 
 .main-nav__toggle--close {
@@ -23,6 +16,17 @@
   margin-right: 20px;
   background: url("../img/icon-menu-burger.svg") no-repeat center;
   background-size: 50px;
+  border: none;
+}
+
+.main-nav__toggle--open {
+  float: right;
+  width: 50px;
+  height: 34px;
+  margin-top: 16px;
+  margin-right: 7px;
+  background: url("../img/icon-menu-cross.svg") no-repeat center;
+  background-size: 24px;
   border: none;
 }
 
