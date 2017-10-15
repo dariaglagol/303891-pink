@@ -49,6 +49,9 @@
 .index-footer__map {
   position: relative;
   overflow: hidden;
+  iframe {
+    width: 100%;
+  }
 }
 
 .index-footer>.page-footer {
