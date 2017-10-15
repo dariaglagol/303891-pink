@@ -126,7 +126,6 @@
     iframe {
       height: 375px;
     }
-
     &::after {
       bottom: 307px;
       left: -3px;
@@ -141,14 +140,12 @@
     width: 880px;
     padding-bottom: 20px;
   }
-
   .index-footer__text {
     padding-top: 65px;
     padding-bottom: 54px;
     font-size: 50px;
     line-height: 59px;
   }
-
   .index-footer__email {
     padding: 0px;
     margin: 0;
@@ -157,7 +154,6 @@
       padding-bottom: 22px;
     }
   }
-
   .index-footer__visit {
     margin: 0;
     padding: 0px;
@@ -167,7 +163,6 @@
       padding-bottom: 22px;
     }
   }
-
   .index-footer__phone {
     padding: 0px;
     padding-left: 18px;
@@ -175,18 +170,16 @@
       padding-bottom: 22px;
     }
   }
-
   .index-footer__map {
     height: 506px;
     iframe {
       height: 507px;
     }
-
     &::after {
       bottom: 353px;
       left: 50%;
       margin-left: -615px;
-      width: 1230px; 
+      width: 1230px;
       height: 180px;
     }
   }
