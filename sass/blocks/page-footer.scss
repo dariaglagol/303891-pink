@@ -30,7 +30,7 @@
       position: absolute;
       top: -8px;
       right: -3px;
-      background-image: url(../img/logo-htmlacademy.svg);
+      background-image: url("../img/logo-htmlacademy.svg");
       background-repeat: no-repeat;
       background-position: center;
       width: 33px;
@@ -101,6 +101,7 @@
     background-image: url("../img/logo-pink-blue-desktop.svg");
     width: 144px;
     height: 52px;
+    margin-top: 12px;
   }
 
   .page-footer__copyright {

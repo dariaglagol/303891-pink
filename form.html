@@ -11,9 +11,15 @@
     <h1 class="semantic-header">Мобильное приложение &#xab;PINK&#xbb;</h1>
     <nav class="main-nav">
       <div class="main-nav__inner">
-        <a href="index.html" class="page-header__logo"><img alt="Логотип приложения Пинк" height="23" src="img/logo-pink-white-mobile.svg" width="92"></a>
-        <button class="main-nav__toggle" type="button"></button>
-        <ul class="main-nav__wrapper nav-list">
+        <a href="index.html" class="page-header__logo">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/logo-pink-white-desktop.svg">
+            <source media="(min-width: 660px)" srcset="img/logo-pink-white-tablet.svg">
+            <img alt="Логотип приложения Пинк"   height="23" src="img/logo-pink-white-mobile.svg" width="92">
+          </picture>
+        </a>
+        <button class="main-nav__toggle main-nav__toggle--close" type="button"></button>
+        <ul class="main-nav__wrapper nav-list nav-list--close">
           <li class="nav-list__item">
             <a href="index.html">Главная</a>
           </li>

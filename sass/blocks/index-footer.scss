@@ -65,11 +65,6 @@
 .index-footer__map {
   position: relative;
   height: 200px;
-  img {
-    display: block;
-    margin: 0 auto;
-    background-position: center bottom;
-  }
 }
 
 .index-footer__map::after {
@@ -128,9 +123,8 @@
 
   .index-footer__map {
     height: 375px;
-    img {
-      width: 700px;
-      height: 848px;
+    iframe {
+      height: 375px;
     }
 
     &::after {
@@ -184,17 +178,16 @@
 
   .index-footer__map {
     height: 506px;
-    img {
-      width: 1200px;
-      height: 976px;
+    iframe {
+      height: 507px;
     }
 
     &::after {
-      bottom: 391px;
+      bottom: 353px;
       left: 50%;
-      margin-left: -595px;
-      width: 1199px;
-      height: 116px;
+      margin-left: -615px;
+      width: 1230px; 
+      height: 180px;
     }
   }
 }

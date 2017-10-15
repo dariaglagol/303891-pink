@@ -119,6 +119,10 @@
     margin-bottom: 19px;
   }
 
+  .gallery-item--panoram::before {
+    top: 85px;
+  }
+
   .gallery-item--panoram {
     padding-top: 30px;
     margin-bottom: 48px;
@@ -127,11 +131,10 @@
   .gallery-item__pict {
     width: 300px;
     min-height: 300px;
-  }
-
-  .gallery-item__pict--panoram {
-    width: 100%;
-    min-height: 510px;
+    &--panoram {
+      width: 100%;
+      min-height: 510px;
+    }
   }
 
   .gallery-item__desc {
@@ -220,6 +223,10 @@
   .gallery-item--panoram {
     margin-bottom: 49px;
     padding-top: 0px;
+    &::before {
+      z-index: 10;
+      top: 54px;
+    }
   }
   .gallery-item__pict--panoram {
     position: relative;
