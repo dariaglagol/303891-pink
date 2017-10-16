@@ -841,13 +841,15 @@ body {
       bottom: -128px;
       width: 1191px;
       height: 161px; }
-  .features__wrap {
+  .features__inner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
     padding: 0 162px;
     padding-top: 356px; }
   .features__item {

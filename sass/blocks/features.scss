@@ -172,9 +172,11 @@
     }
   }
 
-  .features__wrap {
+  .features__inner {
     display: flex;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
     padding: 0 162px;
     padding-top: 356px;
   }
