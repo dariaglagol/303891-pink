@@ -32,15 +32,15 @@
 
 .filters__contrast {
   margin-right: 18px;
-  background: url(../img/icon-editor-contrast.svg) no-repeat center;
+  background: url("../img/icon-editor-contrast.svg") no-repeat center;
   background-size: 33px;
   border: none;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .filters {
     flex-direction: column;
-    padding-top: 0px;
+    padding-top: 0;
     padding-left: 26px;
   }
 
@@ -55,7 +55,7 @@
   .filters__contrast,
   .filters__color,
   .filters__cut {
-    margin-left: 0px;
+    margin-left: 0;
     background-size: 22px;
     padding: 20px 10px;
   }
@@ -66,7 +66,7 @@
   }
 
   .filters__color {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .filters__contrast {
@@ -77,24 +77,24 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .filters {
     display: flex;
     flex-wrap: wrap;
     width: 410px;
     margin: 0;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .filters__contrast,
   .filters__color,
   .filters__cut {
     background-size: 45px;
-    padding: 20px 0px;
+    padding: 20px 0;
   }
 
   .filters__contrast {
-    padding: 15px 0px;
+    padding: 15px 0;
     background-size: 32px;
   }
 }

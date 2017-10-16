@@ -1,4 +1,4 @@
-var open_btn = document.querySelector(".main-nav__toggle--close");
+var open_btn = document.querySelector(".main-nav__toggle--open");
 var menu = document.querySelector(".nav-list");
 var close = document.querySelector(".main-nav__toggle--open");
 var menuBackground = document.querySelector(".main-nav__inner");

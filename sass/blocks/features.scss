@@ -21,22 +21,21 @@
   content: "";
   position: absolute;
   bottom: -47px;
-  left: 0px;
+  left: 0;
   width: 100%;
   height: 48px;
   background: url("../img/bg-triangle-white.svg") no-repeat center;
 }
 
 .features__wrap {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
   background-color: #f2f2f2;
 }
 
 .features__item {
   position: relative;
-  margin: 0px;
   width: 280px;
   padding-top: 29px;
   margin: 0 auto;
@@ -44,6 +43,7 @@
   line-height: 24px;
   font-family: $font-plain;
   text-align: center;
+
   b {
     display: block;
     padding-bottom: 8px;
@@ -74,33 +74,37 @@
   }
 }
 
-@media(min-width:$mobile) and (min-resolution:$retina-dpi) and (min-resolution:$retina-ppx) {
+@media (min-width: $mobile) and (min-resolution: $retina-dpi) and (min-resolution: $retina-ppx) {
   .features__item--friends::after {
-    background-image: url("../img/iphone-screen-mobile@2x.png")
+    background-image: url("../img/iphone-screen-mobile@2x.png");
   }
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .features {
     padding-top: 53px;
   }
+
   .features__desc {
-    margin: 0px;
+    margin: 0;
     padding-bottom: 43px;
+
     p {
       width: auto;
       padding-bottom: 4px;
       font-size: 40px;
       line-height: 42px;
     }
+
     p:last-child {
       width: 335px;
       line-height: 46px;
     }
   }
+
   .features__desc::after {
     bottom: -54px;
-    height: 54px
+    height: 54px;
   }
 
   .features__list {
@@ -108,8 +112,8 @@
   }
 
   .features__item {
-    width:  332px;
-    margin: 0px;
+    width: 332px;
+    margin: 0;
     margin-left: auto;
     padding-bottom: 3px;
     padding-right: 20px;
@@ -127,7 +131,7 @@
     }
 
     &--friends::after {
-      bottom: 0px;
+      bottom: 0;
       left: -230px;
       width: 269px;
       height: 482px;
@@ -138,13 +142,13 @@
   }
 }
 
-@media(min-width:$tablet) and (min-resolution:$retina-dpi) and (min-resolution:$retina-ppx) {
+@media (min-width: $tablet) and (min-resolution: $retina-dpi) and (min-resolution: $retina-ppx) {
   .features__item--friends::after {
-    background-image: url("../img/iphone-screen-3-tablet@2x.png")
+    background-image: url("../img/iphone-screen-3-tablet@2x.png");
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .features {
     padding-top: 68px;
   }
@@ -152,7 +156,7 @@
   .features__desc p {
     font-size: 50px;
     line-height: 59px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .features__desc::after {
@@ -162,8 +166,9 @@
 
   .features__desc p:last-child {
     width: 420px;
-    padding-bottom:36px;
+    padding-bottom: 36px;
     line-height: 59px;
+
     &::after {
       left: -390px;
       bottom: -128px;
@@ -183,12 +188,13 @@
 
   .features__item {
     width: 238px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
+
     b {
       font-size: 30px;
       line-height: 30px;
@@ -226,6 +232,7 @@
       background: url("../img/iphone-screen-3-desktop@1x.png") center no-repeat;
       background-size: contain;
     }
+
     &--friends b {
       width: 210px;
       margin: 0 auto;
@@ -233,7 +240,7 @@
   }
 }
 
-@media(min-width:$desktop) and (min-resolution:$retina-dpi) and (min-resolution:$retina-ppx)  {
+@media (min-width: $desktop) and (min-resolution: $retina-dpi) and (min-resolution: $retina-ppx) {
   .features__item--mood::after {
     background-image: url("../img/iphone-screen-1-desktop@2x.png");
   }

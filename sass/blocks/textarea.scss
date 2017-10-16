@@ -1,23 +1,27 @@
 .textarea__field {
   width: 280px;
   border: none;
+
   textarea {
     width: 280px;
     height: 200px;
     padding: 20px;
     padding-top: 14px;
+
     @include form-typography;
   }
+
   .form__text--pink {
     padding-bottom: 17px;
   }
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .textarea {
     margin-top: 58px;
     order: 5;
-    .textarea__field  {
+
+    .textarea__field {
       padding-top: 39px;
     }
   }
@@ -25,6 +29,7 @@
   .textarea__field {
     width: 620px;
     border: 2px solid #e5e5e5;
+
     .form__text--pink {
       width: auto;
       padding: 0 32px;
@@ -41,9 +46,10 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .textarea {
     width: 100%;
+
     .textarea__field {
       padding-top: 29px;
     }
@@ -51,6 +57,7 @@
 
   .textarea__field {
     width: 940px;
+
     textarea {
       width: 820px;
       height: 128px;

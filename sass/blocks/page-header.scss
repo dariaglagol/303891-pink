@@ -12,11 +12,12 @@
   padding-bottom: 49px;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .page-header__logo {
     padding-top: 26px;
     padding-bottom: 84px;
     padding-left: 20px;
+
     img {
       width: 148px;
       height: 40px;
@@ -24,9 +25,10 @@
   }
 }
 
-@media (min-width:$desktop) {
+@media (min-width: $desktop) {
   .page-header__logo {
-    padding-left: 0px;
+    padding-left: 0;
+
     img {
       width: 146px;
       height: 42px;

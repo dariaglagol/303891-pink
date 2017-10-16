@@ -7,15 +7,15 @@
   background-color: #f2f2f2;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .container--grey {
     background-color: transparent;
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .container {
     padding: 0;
-    margin: 0px;
+    margin: 0;
   }
 }

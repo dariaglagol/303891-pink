@@ -30,20 +30,25 @@
   border: none;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .main-nav__toggle {
     margin-top: 38px;
   }
 }
 
-@media (min-width:$desktop) {
+@media (min-width: $desktop) {
   .main-nav {
     position: relative;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.3);
+
     .main-nav__wrapper {
       display: flex;
     }
+  }
+
+  .main-nav__inner--colored {
+    background-color: transparent;
   }
 
   .main-nav__inner {

@@ -32,7 +32,7 @@
 .form {
   fieldset {
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     padding-bottom: 15px;
   }
 }
@@ -46,18 +46,18 @@
 }
 
 .form__send {
-  width:280px;
+  width: 280px;
   margin: 0 auto;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .form {
     display: flex;
     flex-direction: column;
   }
 
   .form fieldset {
-    padding: 0px;
+    padding: 0;
     padding-top: 35px;
   }
 
@@ -67,6 +67,7 @@
     padding-top: 92px;
     padding-bottom: 35px;
     font-size: 18px;
+
     span {
       display: inline;
     }
@@ -90,7 +91,7 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .form {
     flex-direction: row;
     flex-wrap: wrap;
@@ -110,6 +111,7 @@
     padding-top: 63px;
     padding-bottom: 30px;
   }
+
   .form__desc--invisible {
     display: inline;
   }
