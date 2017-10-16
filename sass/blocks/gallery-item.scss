@@ -188,12 +188,9 @@
     margin-bottom: 54px;
   }
 
-  .gallery-item:nth-child(odd) {
-    padding-left: 0px;
-  }
-
-  .gallery-item:nth-child(even) {
-    padding-right: 0px;
+  .gallery-item:nth-child(2n+3) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .gallery-item__pict{
