@@ -17,6 +17,7 @@
   text-align: center;
   font-size: 14px;
   line-height: 30px;
+
   &--bottom {
     width: 255px;
     padding-top: 21px;
@@ -24,32 +25,36 @@
   }
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .gallery__desc {
     padding-top: 94px;
     width: 494px;
     font-size: 18px;
   }
+
   .gallery__inner {
     width: $tablet;
     margin: 0 auto;
   }
+
   .gallery__desc--bottom {
     padding-top: 45px;
     padding-bottom: 70px;
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .gallery__inner {
     width: 980px;
     margin: 0 auto;
+    justify-content: center;
   }
 
   .gallery__desc {
     width: 600px;
     padding-top: 93px;
     padding-bottom: 87px;
+
     &--bottom {
       padding-top: 45px;
       padding-bottom: 69px;

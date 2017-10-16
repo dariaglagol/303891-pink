@@ -23,13 +23,13 @@
   background-color: #ffffff;
 }
 
-@media(min-width: $tablet) {
+@media (min-width: $tablet) {
   .slider__pagination {
     margin-bottom: 8px;
   }
 }
 
-@media(min-width: $desktop) {
+@media (min-width: $desktop) {
   .slider__pagination {
     display: none;
   }

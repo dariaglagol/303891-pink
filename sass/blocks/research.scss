@@ -10,7 +10,7 @@
 }
 
 .research__header {
-  margin: 0px;
+  margin: 0;
   font-family: $font-bold;
   font-size: 30px;
   line-height: 36px;
@@ -25,7 +25,7 @@
   display: none;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .research {
     display: block;
   }
@@ -45,9 +45,9 @@
 
   .research__text,
   .research__link {
-      margin: 10px 0;
-      font-size: 14px;
-      line-height: 24px;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .research__link {
@@ -57,12 +57,13 @@
   .research__image {
     width: 240px;
     padding-top: 77px;
-    padding-left: 0px;
+    padding-left: 0;
     font-family: $font-bold;
     font-size: 96px;
     line-height: 149px;
     text-align: center;
     color: $pink-text;
+
     span {
       position: relative;
       z-index: 1;
@@ -85,7 +86,7 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .research {
     background-color: #f2f2f2;
   }
@@ -96,14 +97,16 @@
   }
 
   .research__image {
-    width:300px;
+    width: 300px;
     height: 300px;
     padding-top: 80px;
     font-size: 122px;
     line-height: 149px;
+
     span {
       padding: 20px 42px 36px 40px;
     }
+
     &::after {
       top: 23px;
       left: -2px;

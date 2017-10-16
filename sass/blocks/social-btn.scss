@@ -17,7 +17,7 @@
   background-size: 9px 19px;
 }
 
-.social-btn__yt{
+.social-btn__yt {
   background: url("../img/icon-youtube.svg") no-repeat center;
   background-size: 16px;
 }
@@ -31,10 +31,10 @@
   border-radius: 50%;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .social-btn {
     width: 231px;
-    margin: 0px;
+    margin: 0;
     padding-left: 19px;
   }
 
@@ -54,7 +54,7 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .social-btn {
     justify-content: space-between;
     padding-top: 11px;
@@ -62,7 +62,7 @@
   }
 
   .social-btn__fb {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .social-btn__yt {

@@ -6,13 +6,13 @@
   padding-top: 33px;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .user-area {
     width: 300px;
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .user-area {
     display: flex;
     flex-direction: column;

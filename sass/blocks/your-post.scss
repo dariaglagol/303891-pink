@@ -1,4 +1,6 @@
 .your-post {
+  padding-top: 20px;
+  padding-bottom: 40px;
   background-color: #f2f2f2;
 }
 
@@ -6,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
   picture {
     margin: 0 auto;
   }
@@ -16,14 +19,9 @@
   margin: 0 auto;
 }
 
-.your-post {
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .your-post {
-    padding: 0px;
+    padding: 0;
   }
 
   .your-post__inner {
@@ -32,8 +30,9 @@
     padding: 0 20px;
     padding-top: 57px;
     padding-bottom: 53px;
+
     picture {
-      margin: 0px;
+      margin: 0;
     }
   }
 
@@ -44,7 +43,7 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .your-post {
     width: 940px;
     margin: 0 auto;
@@ -53,6 +52,6 @@
 
   .your-post__inner {
     width: 800px;
-    padding: 0px;
+    padding: 0;
   }
 }

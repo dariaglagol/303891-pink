@@ -10,7 +10,6 @@
   margin: 0 auto;
   padding-bottom: 33px;
   font-family: $font-plain;
-  margin: 0 auto;
   font-size: 14px;
   line-height: 30px;
 }
@@ -46,7 +45,7 @@
   display: none;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .testimonials {
     margin: 0 auto;
     padding-top: 75px;
@@ -67,7 +66,7 @@
   }
 
   .testimonials__name {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     font-size: 20px;
     line-height: 30px;
   }
@@ -87,11 +86,12 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .testimonials {
     position: relative;
     padding-top: 186px;
     padding-bottom: 8px;
+
     &::before {
       content: "";
       position: absolute;
@@ -103,6 +103,7 @@
       background: url("../img/icon-quotes.svg") no-repeat center;
       background-size: contain;
     }
+
     &::after {
       bottom: -90px;
       width: 100%;

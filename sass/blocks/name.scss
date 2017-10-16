@@ -5,6 +5,7 @@
 .name__user-name {
   width: 280px;
   border: none;
+
   label {
     display: block;
     padding-left: 23px;
@@ -15,6 +16,7 @@
     color: $pink-text;
     text-transform: uppercase;
   }
+
   input {
     display: block;
     width: 280px;
@@ -22,10 +24,12 @@
     padding: 15px;
     padding-left: 21px;
     box-sizing: border-box;
+
     @include form-typography;
     line-height: 30px;
     border: $form-border;
   }
+
   span {
     display: none;
   }
@@ -36,15 +40,16 @@
   padding-bottom: 17px;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .name {
     order: 1;
   }
 
   .name__user-name {
     width: 620px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 0;
+    padding-top: 0;
+
     span {
       display: inline;
     }
@@ -53,10 +58,11 @@
   .name__data {
     display: flex;
     padding-bottom: 52px;
+
     label {
       align-self: flex-end;
       padding-right: 18px;
-      padding-left: 0px;
+      padding-left: 0;
       padding-bottom: 16px;
     }
 
@@ -66,15 +72,16 @@
   }
 
   .name__data:last-of-type {
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .name {
-    margin: 0px;
+    margin: 0;
+
     .name__user-name {
-      width:435px;
+      width: 435px;
       padding-top: 47px;
     }
 

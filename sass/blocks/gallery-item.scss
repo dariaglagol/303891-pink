@@ -8,6 +8,7 @@
   width: 100%;
   margin-bottom: 18px;
   padding-top: 4px;
+
   &::before {
     content: "Панорама дня";
     position: absolute;
@@ -33,9 +34,11 @@
   margin: 0 auto;
   padding: 18px 17px 25px;
   background-color: #f2f2f2;
+
   &--bottom {
-    padding-top: 19px
+    padding-top: 19px;
   }
+
   &--panoram {
     display: flex;
     flex-direction: column;
@@ -55,7 +58,7 @@
 
 .gallery__user-name,
 .gallery-item__user-name {
-  margin: 0px;
+  margin: 0;
   padding-left: 2px;
   font-family: $font-bold;
   font-size: 14px;
@@ -81,7 +84,7 @@
 
 .gallery-item__like--panoram,
 .gallery-item__like {
-  margin: 0px;
+  margin: 0;
   padding-top: 14px;
   padding-left: 34px;
   font-family: $font-plain;
@@ -113,9 +116,9 @@
   background: url("../img/icon-heart.svg") center no-repeat;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .gallery-item {
-    margin: 0px;
+    margin: 0;
     margin-bottom: 19px;
   }
 
@@ -131,6 +134,7 @@
   .gallery-item__pict {
     width: 300px;
     min-height: 300px;
+
     &--panoram {
       width: 100%;
       min-height: 510px;
@@ -141,6 +145,7 @@
     width: 300px;
     min-height: 156px;
     padding: 23px 26px 27px;
+
     &--panoram {
       flex-direction: initial;
       flex-wrap: wrap;
@@ -154,7 +159,8 @@
   }
 
   .gallery-item__user-name {
-    padding-left: 0px;
+    padding-left: 0;
+
     &--panoram {
       order: 1;
     }
@@ -162,7 +168,8 @@
 
   .gallery-item__like {
     position: relative;
-    padding-left: 0px;
+    padding-left: 0;
+
     &--panoram {
       order: 2;
       width: 123px;
@@ -171,40 +178,38 @@
   }
 
   .gallery-item__like::before {
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     left: auto;
   }
 
   .gallery-item__like--panoram::before {
     top: 2px;
-    right: 0px;
+    right: 0;
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .gallery-item {
-    margin: 0px;
+    margin: 0;
     margin-bottom: 54px;
   }
 
-  .gallery-item:nth-child(odd) {
-    padding-left: 0px;
+  .gallery-item:nth-child(2n+3) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  .gallery-item:nth-child(even) {
-    padding-right: 0px;
-  }
-
-  .gallery-item__pict{
+  .gallery-item__pict {
     min-height: 400px;
   }
 
   .gallery-item__desc {
     padding: 23px 28px 28px;
+
     &--panoram {
       width: 940px;
-      padding:25px 28px 25px;
+      padding: 25px 28px 25px;
     }
   }
 
@@ -217,17 +222,21 @@
     bottom: -1px;
     right: 1px;
   }
+
   .gallery-item__like--panoram::before {
-    right: 0px;
+    right: 0;
   }
+
   .gallery-item--panoram {
     margin-bottom: 49px;
-    padding-top: 0px;
+    padding-top: 0;
+
     &::before {
       z-index: 10;
       top: 54px;
     }
   }
+
   .gallery-item__pict--panoram {
     position: relative;
     left: 50%;

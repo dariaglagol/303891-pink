@@ -8,13 +8,12 @@
 
 .page-footer__logo {
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
   background-image: url("../img/logo-pink-blue-mobile.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 150px;
   height: 42px;
-  margin: 0 auto;
 }
 
 .page-footer__copyright {
@@ -26,15 +25,16 @@
   line-height: 18px;
   color: $dark-text;
   text-align: center;
+
   a {
-      position: absolute;
-      top: -8px;
-      right: -3px;
-      background-image: url("../img/logo-htmlacademy.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 33px;
-      height: 37px;
+    position: absolute;
+    top: -8px;
+    right: -3px;
+    background-image: url("../img/logo-htmlacademy.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33px;
+    height: 37px;
   }
 }
 
@@ -46,7 +46,7 @@
   padding: 53px 0;
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .page-footer {
     padding: 37px 0;
   }
@@ -61,21 +61,22 @@
   }
 
   .page-footer__logo {
-    margin: 0px;
-    background-position: 0px -3px;
+    margin: 0;
+    background-position: 0 -3px;
   }
 
   .page-footer__copyright {
-    margin: 0px;
+    margin: 0;
     padding-top: 18px;
     padding-right: 42px;
+
     a {
       top: 9px;
     }
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .page-footer--index {
     padding: 11px 0;
     padding-bottom: 80px;
@@ -83,8 +84,9 @@
 
   .page-footer--form {
     padding: 33px 0;
+
     .page-footer__inner {
-      padding-top: 0px;
+      padding-top: 0;
     }
   }
 
@@ -92,6 +94,7 @@
     width: 940px;
     margin: 0 auto;
     padding-top: 48px;
+
     &--gallery {
       padding-top: 52px;
     }
@@ -110,6 +113,7 @@
     padding-right: 42px;
     font-size: 18px;
     line-height: 30px;
+
     a {
       top: 19px;
       right: -4px;

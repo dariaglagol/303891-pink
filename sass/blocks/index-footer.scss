@@ -2,6 +2,7 @@
   position: relative;
   background-color: #ffffff;
   z-index: 2;
+
   span {
     display: block;
     font-family: $font-bold;
@@ -27,7 +28,7 @@
 .index-footer__phone,
 .index-footer__email,
 .index-footer__visit {
-  margin: 0px;
+  margin: 0;
   padding-top: 19px;
   font-family: $font-light;
   color: $pink-text;
@@ -36,7 +37,7 @@
   line-height: 29px;
 }
 
-.index-footer__phone span{
+.index-footer__phone span {
   line-height: 25px;
 }
 
@@ -47,14 +48,16 @@
 }
 
 .index-footer__map {
+  height: 200px;
   position: relative;
   overflow: hidden;
+
   iframe {
     width: 100%;
   }
 }
 
-.index-footer>.page-footer {
+.index-footer > .page-footer {
   display: none;
 }
 
@@ -63,11 +66,6 @@
   padding-bottom: 40px;
   width: 250px;
   margin: 0 auto;
-}
-
-.index-footer__map {
-  position: relative;
-  height: 200px;
 }
 
 .index-footer__map::after {
@@ -81,8 +79,8 @@
   background-size: contain;
 }
 
-@media(min-width:$tablet) {
-  .index-footer>.page-footer {
+@media (min-width: $tablet) {
+  .index-footer > .page-footer {
     display: block;
     position: relative;
     background-color: #ffffff;
@@ -108,6 +106,7 @@
   .index-footer__visit {
     padding-top: 43px;
     padding-bottom: 31px;
+
     span {
       padding-bottom: 4px;
     }
@@ -119,6 +118,7 @@
     justify-content: space-between;
     width: 570px;
     margin: 0 auto;
+
     span {
       padding-bottom: 2px;
     }
@@ -126,9 +126,11 @@
 
   .index-footer__map {
     height: 375px;
+
     iframe {
       height: 375px;
     }
+
     &::after {
       bottom: 307px;
       left: -3px;
@@ -138,46 +140,56 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .index-footer__inner {
     width: 880px;
     padding-bottom: 20px;
   }
+
   .index-footer__text {
     padding-top: 65px;
     padding-bottom: 54px;
     font-size: 50px;
     line-height: 59px;
   }
+
   .index-footer__email {
-    padding: 0px;
+    padding: 0;
     margin: 0;
     order: 3;
+
     span {
       padding-bottom: 22px;
     }
   }
+
   .index-footer__visit {
     margin: 0;
-    padding: 0px;
+    padding: 0;
     padding-left: 18px;
     order: 2;
+
     span {
       padding-bottom: 22px;
     }
   }
+
   .index-footer__phone {
-    padding: 0px;
+    padding: 0;
     padding-left: 18px;
+
     span {
       padding-bottom: 22px;
     }
   }
+
   .index-footer__map {
     height: 506px;
+
     iframe {
       height: 507px;
     }
+
     &::after {
       bottom: 353px;
       left: 50%;

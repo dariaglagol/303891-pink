@@ -7,6 +7,7 @@
   font-size: 18px;
   line-height: 18px;
   text-align: center;
+
   &--post {
     display: block;
     padding: 15px 0;
@@ -33,9 +34,10 @@
     color: #ffffff;
     background-color: #2aab6d;
     border: 3px solid #2aab6d;
-    border-radius: 0px;
+    border-radius: 0;
     text-transform: uppercase;
   }
+
   &--download {
     padding: 16px 0;
     color: #ffffff;
@@ -45,13 +47,14 @@
   }
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .btn {
     &--post {
       width: 260px;
       margin-left: 38px;
       margin-top: -52px;
     }
+
     &--disabled {
       width: 260px;
       margin-top: 25px;
@@ -60,7 +63,7 @@
 
     &--send {
       width: 300px;
-      margin: 0px;
+      margin: 0;
       padding: 20px 53px;
     }
 
@@ -71,22 +74,22 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .btn {
     &--post {
       float: left;
       width: 183px;
-      margin-top: 0px;
-      margin-left: 0px;
+      margin-top: 0;
+      margin-left: 0;
       margin-right: 10px;
     }
 
     &--disabled {
       float: right;
       width: 183px;
-      margin-right: 0px;
+      margin-right: 0;
       margin-left: 22px;
-      margin-top: 0px;
+      margin-top: 0;
     }
 
     &--send {

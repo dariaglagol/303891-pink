@@ -4,6 +4,7 @@
   width: 320px;
   left: -45px;
   border-bottom: 1px solid #dddfe0;
+
   .control-bar__full {
     display: none;
     width: 240px;
@@ -25,6 +26,7 @@
 
 .control-bar--cut {
   display: block;
+
   .control-bar__full {
     display: block;
   }
@@ -37,13 +39,14 @@
   }
 }
 
-@media(min-width:$tablet) {
+@media (min-width: $tablet) {
   .control-bar {
     display: block;
     width: 290px;
     border: none;
     left: 6px;
     top: -4px;
+
     .control-bar__full {
       display: block;
       width: 202px;
@@ -70,6 +73,7 @@
       margin: 17px auto;
       margin-right: 32px;
     }
+
     .control-bar__thumb {
       top: 11px;
       right: 121px;
@@ -77,18 +81,21 @@
   }
 }
 
-@media(min-width:$desktop) {
+@media (min-width: $desktop) {
   .control-bar {
     left: 54px;
+
     .control-bar__full {
       width: 290px;
       margin-right: -39px;
     }
   }
+
   .control-bar--contrast {
     .control-bar__full {
       margin-right: -39px;
     }
+
     .control-bar__thumb {
       right: 77px;
     }
