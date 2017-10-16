@@ -36,6 +36,7 @@
   width: 257px;
   height: 287px;
   background: url("../img/iphone-hand-mobile@1x.png") no-repeat center;
+  background-size: contain;
 }
 
 .banner__header {
@@ -93,7 +94,7 @@
     width: 700px;
     height: 545px;
     background-image: url("../img/iphone-hand-tablet@1x.png");
-    background-size: 470px 546px;
+    background-size: contain;
   }
   .banner__header {
     width: 355px;
@@ -140,6 +141,7 @@
     bottom: -206px;
     left: 150px;
     background-image: url("../img/iphone-hand-desktop@1x.png");
+    background-size: contain;
   }
   .banner--gallery {
     padding-top: 175px;
