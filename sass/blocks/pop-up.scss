@@ -1,34 +1,43 @@
+.pop-up {
+  position: relative;
+}
+
 .pop-up__wrap {
   text-align: center;
   padding: 41px 20px;
   padding-bottom: 0;
 }
 
-.pop-up--fail {
-  position: fixed;
+.pop-up__fail {
+  position: absolute;
   z-index: 10;
-  top: 10px;
+  top: -1593px;
   left: 0;
   display: block;
   width: 320px;
   background-color: #ffffff;
   box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.3);
+
+  .pop-up__text {
+    padding: 25px 3px;
+    padding-bottom: 10px;
+  }
 }
 
-.pop-up--success {
-  position: fixed;
-  z-index: 10;
-  top: 30px;
-  left: 0;
-  display: block;
-  width: 320px;
-  background-color: #ffffff;
-  box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.3);
-}
-
-.pop-up__fail,
 .pop-up__success {
-  display: none;
+  position: absolute;
+  z-index: 10;
+  top: -1119px;
+  left: 0;
+  display: block;
+  width: 320px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.3);
+
+  .pop-up__text {
+    padding: 25px 7px;
+    padding-bottom: 50px;
+  }
 }
 
 .pop-up__header {
@@ -42,20 +51,49 @@
 
 .pop-up__text {
   margin: 0;
-  padding: 20px 18px;
-  padding-bottom: 0;
   font-family: $font-plain;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
 }
 
+.pop-up__btn {
+  padding: 29px 0;
+  padding-bottom: 49px;
+  background-color: #f2f2f2;
+  &--on-white {
+    background-color: #ffffff;
+  }
+}
+
+.pop-up__fail,
+.pop-up__success {
+  display: none;
+}
+
 @media (min-width: $tablet) {
-  .pop-up--fail,
-  .pop-up--success {
-    width: 458px;
-    top: 80px;
+  .pop-up__fail,
+  .pop-up__success {
+    width: 462px;
     left: 15%;
+  }
+
+  .pop-up__fail {
+    top: -2106px;
+
+    .pop-up__header {
+      width: 250px;
+      margin: 0 auto;
+    }
+  }
+
+  .pop-up__success {
+    top: -1632px;
+
+    .pop-up__text {
+      padding: 22px 8px;
+      padding-bottom: 27px;
+    }
   }
 
   .pop-up__wrap {
@@ -81,6 +119,10 @@
     padding-bottom: 49px;
     background-color: #f2f2f2;
 
+    &--on-white {
+      padding-top: 24px;
+    }
+
     .btn {
       margin: auto;
     }
@@ -88,12 +130,26 @@
 }
 
 @media (min-width: $desktop) {
-  .pop-up--success {
+  .pop-up__success {
     width: 780px;
     left: 17.5%;
+    top: -792px;
+
+    .pop-up__text {
+      padding: 22px 85px;
+    }
+
+    .pop-up__btn {
+      padding-top: 58px;
+    }
+
+    .close-btn {
+      width: 460px;
+    }
   }
 
-  .pop-up--fail {
-    left: 32%;
+  .pop-up__fail {
+    left: 31%;
+    top:-1248px;
   }
 }
