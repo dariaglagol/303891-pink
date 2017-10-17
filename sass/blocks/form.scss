@@ -48,6 +48,11 @@
 .form__send {
   width: 280px;
   margin: 0 auto;
+  padding-top: 29px;
+
+  .form__desc {
+    padding-top: 37px;
+  }
 }
 
 @media (min-width: $tablet) {
