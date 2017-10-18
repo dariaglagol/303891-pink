@@ -44,6 +44,15 @@
     border-radius: 55px;
     background: transparent;
   }
+
+  &--download:hover {
+    background-color: #ffffff;
+    color: $pink-text;
+  }
+
+  &--download:active {
+    color: rgba(210, 40, 86, 0.5);
+  }
 }
 
 @media (min-width: $tablet) {

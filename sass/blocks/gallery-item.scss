@@ -187,6 +187,14 @@
     top: 2px;
     right: 0;
   }
+
+  .gallery-item__user-text {
+    min-height: 48px;
+
+    &--panoram {
+      min-height: auto;
+    }
+  }
 }
 
 @media (min-width: $desktop) {
