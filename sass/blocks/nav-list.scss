@@ -27,6 +27,15 @@
   }
 }
 
+.nav-list__item a:hover,
+.nav-list__item a:focus {
+  color: $pink-text;
+}
+
+.nav-list__item a:active {
+  opacity: 0.5;
+}
+
 @media (min-width: $desktop) {
   .nav-list {
     flex-direction: row;
@@ -43,5 +52,14 @@
     border: none;
     line-height: 18px;
     text-transform: capitalize;
+  }
+
+  .nav-list__item--active a {
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .nav-list__item a:active {
+    opacity: 1;
+    color: $grey-text;
   }
 }

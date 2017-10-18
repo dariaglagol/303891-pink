@@ -12,6 +12,14 @@
   padding-bottom: 49px;
 }
 
+.page-header__logo:focus {
+  background-image: url("../img/logo-pink-hover-mobile.svg");
+}
+
+.page-header__logo:active {
+  opacity: 0.5;
+}
+
 @media (min-width: $tablet) {
   .page-header__logo {
     padding-top: 26px;

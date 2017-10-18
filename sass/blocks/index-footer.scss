@@ -47,6 +47,15 @@
   line-height: 34px;
 }
 
+.index-footer__email a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.index-footer__email a:active {
+  opacity: 0.5;
+}
+
 .index-footer__map {
   height: 200px;
   position: relative;
