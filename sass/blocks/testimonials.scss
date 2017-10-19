@@ -152,7 +152,11 @@
     background: url("../img/icon-review-arrow-right.svg") no-repeat center;
   }
 
-  .testimonials__list::before:hover {
+  .testimonials__list:hover::before {
+    background: url("../img/icon-hover-arrow-left.svg") no-repeat center;
+  }
+
+  .testimonials__list:hover::after {
     background: url("../img/icon-hover-arrow-right.svg") no-repeat center;
   }
 }
