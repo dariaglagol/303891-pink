@@ -142,7 +142,7 @@
     background: url("../img/icon-review-arrow-left.svg") no-repeat center;
   }
 
-  .testimonials__list::after{
+  .testimonials__list::after {
     content: "";
     position: absolute;
     right: 106px;
@@ -150,5 +150,9 @@
     width:27px;
     height: 49px;
     background: url("../img/icon-review-arrow-right.svg") no-repeat center;
+  }
+
+  .testimonials__list::before:hover {
+    background: url("../img/icon-hover-arrow-right.svg") no-repeat center;
   }
 }
