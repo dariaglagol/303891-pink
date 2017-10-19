@@ -31,6 +31,19 @@
   border-radius: 50%;
 }
 
+.social-btn__tw:hover,
+.social-btn__fb:hover,
+.social-btn__yt:hover {
+  border-color: $dark-text;
+}
+
+.social-btn__tw:active,
+.social-btn__fb:active,
+.social-btn__yt:active {
+  opacity: 0.5;
+  border-color: #e9ebec;
+}
+
 @media (min-width: $tablet) {
   .social-btn {
     width: 231px;
