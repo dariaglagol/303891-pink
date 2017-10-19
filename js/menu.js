@@ -7,8 +7,8 @@ open_btn.addEventListener("click", function(event) {
   event.preventDefault();
   if (!menu.classList.contains("nav-list--close")) {
     menu.classList.add("nav-list--close");
-    open_btn.classList.remove("main-nav__toggle--open");
     open_btn.classList.add("main-nav__toggle--close");
+    open_btn.classList.remove("main-nav__toggle--open");
     menuBackground.classList.remove("main-nav__inner--colored");
   } else {
     menu.classList.remove("nav-list--close");
