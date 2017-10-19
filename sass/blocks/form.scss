@@ -35,6 +35,14 @@
     padding: 0;
     padding-bottom: 15px;
   }
+
+  input:hover {
+    border-color: $dark-text;
+  }
+
+  input:focus {
+    outline-color: $pink-text;
+  }
 }
 
 .form__text--invisible {

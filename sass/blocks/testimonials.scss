@@ -127,4 +127,36 @@
     font-size: 18px;
     line-height: 30px;
   }
+
+  .testimonials__list {
+    position: relative;
+  }
+
+  .testimonials__list::before {
+    content: "";
+    position: absolute;
+    left: 106px;
+    top: 23px;
+    width:27px;
+    height: 49px;
+    background: url("../img/icon-review-arrow-left.svg") no-repeat center;
+  }
+
+  .testimonials__list::after {
+    content: "";
+    position: absolute;
+    right: 106px;
+    top: 23px;
+    width:27px;
+    height: 49px;
+    background: url("../img/icon-review-arrow-right.svg") no-repeat center;
+  }
+
+  .testimonials__list:hover::before {
+    background: url("../img/icon-hover-arrow-left.svg") no-repeat center;
+  }
+
+  .testimonials__list:hover::after {
+    background: url("../img/icon-hover-arrow-right.svg") no-repeat center;
+  }
 }
